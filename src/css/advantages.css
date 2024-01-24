@@ -84,12 +84,13 @@
 @media screen and (min-width: 1440px) {
     .adv-picture {
         width: 540px;
-        height: 424px;
+        max-height: 424px;
         flex-shrink: 0;
+        object-fit: fill;
     }
 
     .advantages-list {
         width: 768px;
-        height: 424px;
+        height: 720px;
     }
 }
