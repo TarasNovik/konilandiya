@@ -21,12 +21,21 @@
     margin-bottom: 24px;
 }
 
+
 .hero-text {
     color: rgba(251, 251, 251, 0.70);
     font-size: 12px;
     font-weight: 300;
     line-height: 1.26;
-    padding-bottom: 38px;
+    padding-bottom: 18px;
+}
+
+.hero-text1 {
+    color: rgba(251, 251, 251, 0.70);
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.26;
+    padding-bottom: 18px;
 }
 
 .hero-a {
