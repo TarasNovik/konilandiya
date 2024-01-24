@@ -5,7 +5,7 @@
             rgba(17, 19, 31, 0.80) 42.62%,
             rgba(17, 19, 31, 0.31) 84.12%,
             rgba(17, 19, 31, 0.00) 99.94%),
-        url(./img/hero/horses-hero.jpg);
+        url(../img/hero/horses-hero.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -51,7 +51,7 @@ screen and(min-resolution: 2dppx) and (max-width: 767px),
 screen and(min-device-pixel-raito: 2) and (max-width: 767px) {
     .hero {
         background-image:
-            url(../img/hero-mobile@2x.jpg);
+            url(../img/hero/horses-hero.jpg);
     }
 }
 
@@ -64,7 +64,7 @@ screen and(min-device-pixel-raito: 2) and (max-width: 767px) {
                 rgba(17, 19, 31, 0.80) 42.62%,
                 rgba(17, 19, 31, 0.31) 84.12%,
                 rgba(17, 19, 31, 0.00) 99.94%),
-            url(../img/hero/hero-tablet.jpg);
+            url(../img/hero/horses-hero.jpg);
 
         padding-top: 280px;
         padding-bottom: 215px;
@@ -94,7 +94,7 @@ screen and(min-resolution: 2dppx) and (max-width: 1279px),
 screen and(min-device-pixel-raito: 2) and (max-width: 1279px) {
     .hero {
         background-image:
-            url(../img/hero-tablet@2x.jpg);
+            url(../img/hero/horses-hero.jpg);
     }
 }
 
@@ -107,7 +107,7 @@ screen and(min-device-pixel-raito: 2) and (max-width: 1279px) {
                 rgba(17, 19, 31, 0.80) 42.62%,
                 rgba(17, 19, 31, 0.31) 84.12%,
                 rgba(17, 19, 31, 0.00) 99.94%),
-            url(../img/hero/hero-laptop1.jpg);
+            url(../img/hero/horses-hero.jpg);
     }
 
     .hero-title {
@@ -120,7 +120,7 @@ screen and(min-resolution: 2dppx) and (max-width: 1439px),
 screen and(min-device-pixel-raito: 2) and (max-width: 1439px) {
     .hero {
         background-image:
-            url(../img/hero-laptop1@2x.jpg);
+            url(../img/hero/horses-hero.jpg);
     }
 }
 
@@ -133,7 +133,7 @@ screen and(min-device-pixel-raito: 2) and (max-width: 1439px) {
                 rgba(17, 19, 31, 0.80) 42.62%,
                 rgba(17, 19, 31, 0.31) 84.12%,
                 rgba(17, 19, 31, 0.00) 99.94%),
-            url(../img/hero/hero-laptop2.jpg);
+            url(../img/hero/horses-hero.jpg);
     }
 
     .hero-title {
@@ -146,6 +146,6 @@ screen and(min-resolution: 2dppx) and (min-width: 1440px),
 screen and(min-device-pixel-raito: 2) and (min-width: 1440px) {
     .hero {
         background-image:
-            url(../img/hero-laptop2@2x.jpg);
+            url(../img/hero/horses-hero.jpg);
     }
 }
