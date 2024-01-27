@@ -40,7 +40,7 @@
   }
 
   .header-nav-social {
-    gap: 12px;
+    gap: 38px;
     display: flex;
   }
 
@@ -145,7 +145,7 @@
   }
 
   .header-nav-social {
-    gap: 38px;
+    gap: 281px;
   }
 }
 
