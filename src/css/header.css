@@ -13,7 +13,6 @@
   border: 1px solid #FBFBFB;
   background: #FBFBFB;
   justify-content: space-between;
-  padding: 0px 20px;
   align-items: center;
 
 }
@@ -41,7 +40,35 @@
   }
 
   .header-nav-social {
-    display: none;
+    gap: 8px;
+    display: flex;
+  }
+
+  .header-navigation-item {
+    width: 46px;
+    height: 28px;
+    border-radius: 8px;
+    background: #1B414B;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .header-navigation-item:hover {
+    background: rgba(27, 65, 75, 0.50);
+    color: #1B414B;
+  }
+
+  .header-social-list {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+  }
+
+  .social-header-icon {
+    fill: #1B414B;
   }
 }
 
